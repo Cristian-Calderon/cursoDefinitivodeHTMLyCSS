@@ -1,0 +1,11 @@
+/* el padre seria "div" y el hijo directo seria "p"*/
+div > p{
+    color: red;
+}
+/*Decendiente a todos afecta */
+div p {
+    color: red;
+}
+
+/* Nuevos combinadores https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators */
+/* Juego  https://flukeout.github.io/ */
