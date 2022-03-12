@@ -1,0 +1,4 @@
+/* Para los hermanos generales */
+h2 ~ p{
+    color: red;
+}
