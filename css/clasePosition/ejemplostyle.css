@@ -3,10 +3,14 @@
     padding: 0;
     margin: 0;
 }
+.contenedor{
+    position: relative;
+}
 .rojo{
     position:absolute;
-    top: 68px;
-    left: 600px;
+    z-index: 1;
+    top: 85px;
+    left: 500px;
     background-color: burlywood;
     display: inline-block;
     text-align: center;
@@ -15,23 +19,23 @@
     height: 120px;
     border-radius: 20px;
     padding: 10px;
-    padding-top: px;
+    padding-top: 40px;
     font-weight: bold;
     border: 2px black solid;
 }
 .plomo{
-    position: absolute;
-    left: 370px;
+    position: relative;
+    left: 260px;
     top: 190px;
     background-color: skyblue;
     display: inline-block;
     text-align: center;
     font-size: 1.6rem;
-    width: 800px;
-    height: 150px;
+    width: 850px;
+    height: 190px;
     border-radius: 20px;
     padding: 10px;
-    padding-top: px;
+    padding-top: 35px;
     font-weight: bold;
     border: 2px black solid;
 }
