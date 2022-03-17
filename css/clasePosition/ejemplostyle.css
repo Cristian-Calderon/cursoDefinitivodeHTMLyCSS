@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.rojo{
+    position:absolute;
+    top: 68px;
+    left: 600px;
+    background-color: burlywood;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: px;
+    font-weight: bold;
+    border: 2px black solid;
+}
+.plomo{
+    position: absolute;
+    left: 370px;
+    top: 190px;
+    background-color: skyblue;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 800px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: px;
+    font-weight: bold;
+    border: 2px black solid;
+}
