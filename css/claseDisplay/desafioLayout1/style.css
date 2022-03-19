@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: skyblue;
+}
+header{
+    background-color: rgb(215, 204, 226);
+}
+.navegador{
+    padding: 10px;
+    list-style: none;
+    text-align: right;
+    text-decoration: none;
+}
+.navegador li{
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.parent{
+    display: inline-block;
+    background-color: rgb(255, 140, 140);
+}
+.box
+{
+    background-color: rgb(228, 177, 230);
+    width: 220px;
+    height: 152px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.hermanoparent{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(122, 108, 153);
+    
+}
+.boxhermano{
+    width: 1296px;
+    height: 658px;
+}
+.footer{
+    background-color: skyblue;
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+}
