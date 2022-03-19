@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    /*si es 0.3rem se refiere a 3px por el font-size: 62.5% */
+    border: 0.3rem solid black;
+    display: flex;
+    /* flex-direction: column;  Para hacer una columna*/
+    /* flex-direction: row-reverse; Para hacer invertir una fila */
+    /* flex-direction: column-reverse; Para invertir una columna */
+    /* flex-wrap: wrap; hace que se acomoden los cuadras dependiendo la dimesion del navegador */
+    /* justify-content: center; Centrar los elementos de flex*/
+    /* justify-content: flex-end; hace que todos los elementos vayan a lado opuesto al que estan si estan a la derecha que se apeguen a la izquierda */
+    /* justify-content: space-around; crea un espacio entre los elementos, no es exacto */
+    /* justify-content: space-evenly; se crea un espacio entre elementos iguales */
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
+}
