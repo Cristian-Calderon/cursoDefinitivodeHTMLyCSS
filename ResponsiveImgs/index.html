@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResponsiveImg</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+          <!-- srcset = Sirve para que el navegador tenga opciones para elegir
+               en un imagen, en este caso tenemos mediana y grande.
+               media = es un media query que sirve para darle los intervalos
+               para su cambio en este caso 1000px cambiara a la siguiente imagen
+               y 1300px a la mas grande.
+               
+               El orden al declarar las imagenes importan, la imagen que tenga el 
+               viewport (size) mas grande debe ir arriba.
+               BUENAS PRACTICAS:
+                LA FORMA DE MANEJAR IMAGENES
+                ALGO MUY IMPORTAN EN IMAGENES width:100%; ES BUENA PRACTICA
+                LO MEJOR QUE PODEMOS HACER.
+
+
+            -->
+        <source media="(min-width:1300px)" srcset="./img/salchichagrande.jpg"/>
+        <source media="(min-width:1000px)" srcset="./img/salchichamediana.jpg"/>
+        <img src="./img/salchichasmall.jpg" alt="Es una imagen de ejemplo"/>
+      </picture>
+    </main>
+  </body>
+</html>
