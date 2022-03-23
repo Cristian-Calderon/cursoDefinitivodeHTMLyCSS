@@ -12,3 +12,6 @@ h1 {
 p {
   font-size: 1.8rem;
 }
+/* El uso correcto en texto es el rem para que se ajuste a su dispositivo
+   si ellos eligen el size de fuente mas grande se cambiara automaticamente
+   */
